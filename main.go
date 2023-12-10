@@ -16,7 +16,7 @@ func Hello(name string) (string, error) {
 }
 
 func main() {
-	message, err := Hello("MapUp") //sample name
+	message, err := Hello("MapUp") //sample name here
 	if err != nil {
 		log.Fatal(err)
 	}
